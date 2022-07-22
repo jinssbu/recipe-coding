@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Helvetica Neue", Arial, "Hiragino Sans", Meiryo, sans-serif;
+	color: #2b2a27;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 100%;
+}
+
+
+main .container{
+	display: flex;
+}
+
+.img-logo{
+	width: 50%;
+}
+
+.img-logo img{
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+/* 右ページ-ひよこ豆とアボカドのタコス */
+.flex{
+	width: 50%;
+	padding: 0px 95px 0 95px;
+}
+
+.recipe-title h1{
+	margin:40px 0 20px 0 ;
+	font-size: 28px;
+}
+
+h2{
+	font-size: 20px;
+	margin: 40px 0 15px 0;
+	padding-bottom: 5px;
+}
+
+.material dl{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.material h2{
+	border-bottom: 1px dotted #ccc;
+}
+.material dt{
+	border-bottom: 1px dotted #ccc;
+	width: 85%;
+	padding: 6px 0 6px 0;
+}
+.material dd{
+	border-bottom: 1px dotted #ccc;
+	text-align: right;
+	padding: 6px 0 6px 0;
+	width: max-content;
+}
+
+.make h2{
+	border-bottom: 1px dotted #ccc;
+}
+.make li{
+	border-bottom: 1px dotted #ccc;
+	padding: 6px 0 6px 0px;
+	margin-left: 20px;
+}
+
+/* レシピ一覧 */
+.recipe-menu{
+	text-align: center;
+	
+}
+
+.btn-recipe{
+	display: inline-block;
+	border:1px solid #2B2A27;
+	padding: 18px 60px;
+	margin: 62px 0 80px 0;
+	font-size: 14px;
+
+}
+
+a{
+	color: #2b2a27;
+}
+
+
+/* footer */
+footer{
+	padding: 20px;
+}
+.list-sns ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin-bottom: 20px;
+}
+.list-sns li{
+	margin: 0 10px;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.credit{
+	font-size: 12px;
+	text-align: center;
+}
+
