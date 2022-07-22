@@ -1,0 +1,14 @@
+@media(max-width:480px){
+	.img-logo{
+		width: 100%;
+	}
+	
+	.img-logo img{
+	}
+	main .container{
+		display: inline-block;
+	}
+
+	.flex{
+		width: 100%;
+	}
